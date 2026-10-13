@@ -19,5 +19,10 @@ pipeline {
                 sh 'java Test'
             }
         }
+         stage('display message ') {
+            steps {
+                echo 'Hello from Git'
+            }
+        }
     }
 }
